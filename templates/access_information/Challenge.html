@@ -85,6 +85,10 @@
 <script>
     const modal = document.querySelector('.modal');
     const exitButton = document.querySelector('.exit-button');
+    const modalIP = document.querySelector('.modal-ip');
+const modalPort = document.querySelector('.modal-port');
+const modalDescription = document.querySelector('.modal-description');
+const modal
 
     // 모달 종료 버튼 이벤트
     exitButton.addEventListener('click', () => {
@@ -93,7 +97,7 @@
 
     // 모든 challenge-circle 버튼에 클릭 이벤트 추가
     const openModalButtons = document.querySelectorAll('.challenge-circle');
-    openModalButtons.forEach(button => {
+  aa openModalButtons.forEach(button => {
         button.addEventListener('click', () => {
             modal.style.display = 'block';  // 모달창을 표시합니다.
         });
